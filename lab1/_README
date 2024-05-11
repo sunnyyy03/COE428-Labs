@@ -1,0 +1,15 @@
+void mySort (int data[], int first, int last)
+{
+	int j, x;
+	for (int i = first; i <= last; i++)
+	{
+		j = i-1;
+		x = data[i];
+		while (j >= first && data[j] > x)
+		{
+			data[j+1] = data[j];
+			j--;
+		}
+		data[j+1] = x;
+	}
+}
