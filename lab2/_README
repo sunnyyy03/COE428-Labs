@@ -1,0 +1,17 @@
+Everything that was required was acheived in this lab, as all the programs work.
+
+Question 1) --------------------- 
+
+1. The first recursive call will be towers(4,2,1)
+
+2. It takes 5 invocations before the first recursive call actually returns to the initial invocation.
+
+3. It will print "Move #1: From Tower 2 to Tower 3".
+
+4. The second recursive call will be towers(3,2,3)
+
+
+Question 2) --------------------- 
+
+There are 255 lines. This is known by modifying the program to count the number of lines.
+ 
